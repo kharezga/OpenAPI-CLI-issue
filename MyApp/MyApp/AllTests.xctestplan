@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "3764790E-93C6-48EA-A8CF-3FCA7CC15D41",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:MyApp.xcodeproj",
+        "identifier" : "D027E1422B7F5E260046E806",
+        "name" : "MyAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/MyCoolPackage",
+        "identifier" : "MyCoolPackageTests",
+        "name" : "MyCoolPackageTests"
+      }
+    }
+  ],
+  "version" : 1
+}
