@@ -14,8 +14,8 @@ let package = Package(
             targets: ["MyCoolPackage"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-openapi-generator", .upToNextMinor(from: "0.2.1")),
-        .package(url: "https://github.com/apple/swift-openapi-runtime", .upToNextMinor(from: "0.2.0")),
+        .package(url: "https://github.com/apple/swift-openapi-generator", .upToNextMinor(from: "1.2.1")),
+        .package(url: "https://github.com/apple/swift-openapi-runtime", .upToNextMinor(from: "1.3.2")),
         .package(url: "https://github.com/RocketLaunchpad/Keychain", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
